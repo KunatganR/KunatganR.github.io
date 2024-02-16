@@ -1,35 +1,123 @@
-# Project Name
+---
+layout: default
+---
 
-Brief description of what your project does.
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-## Overview
+[Link to another page](./another-page.html).
 
-Provide a high-level overview of your project. What problem does it solve? What are its main features?
+There should be whitespace between paragraphs.
 
-## Getting Started
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-Instructions on how to get started with your project. Include installation instructions and any prerequisites.
+# Header 1
 
-## Usage
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-Explain how to use your project. Provide examples or screenshots if necessary.
+## Header 2
 
-## Contributing
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
 
-Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, or pull requests.
+### Header 3
 
-## Support
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
 
-Provide information on where users can go to get help with your project. This could be a link to documentation, a forum, or a support email address.
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
 
-## License
+#### Header 4
 
-State what license your project is under. For example, MIT, GPL, Apache, etc.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
 
-## Acknowledgements
+##### Header 5
 
-Acknowledge any individuals, organizations, or resources that have helped or inspired your project.
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
 
-## Contact
+###### Header 6
 
-Provide contact information for the project maintainer or team.
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
